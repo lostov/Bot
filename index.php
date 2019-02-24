@@ -16,8 +16,8 @@ function RequestSend($method,$datas=[])
 				return json_decode($res);
 			} 
 	}
-$desc = "INFO:\n📞 +998 97 420 9008\n☎️ +998 95 196 9008\n📨  telegram orqali: @internationalStudyService\n_______________________\n📌Manzil: Yunusobod tumani, (Oldingi Toshkent Moliya Instituti binosi hozirgi Toshkent Arxitektura instituti)";
-$desc .= "\n". date('d.m.Y H:i');
+date_default_timezone_set('Asia/Tashkent');
+$desc = date('d.m.Y H:i') . "\n📞 +998 97 420 9008\n☎️ +998 95 196 9008\n📨  telegram orqali: @internationalStudyService\n_______________________\n📌Manzil: Yunusobod tumani, (Oldingi Toshkent Moliya Instituti binosi hozirgi Toshkent Arxitektura instituti)";
 $method = 'setChatDescription';
 $datas = ['chat_id' => -1001175758497,'description' => $desc ];
 var_dump(RequestSend($method,$datas));
