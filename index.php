@@ -21,4 +21,6 @@ $desc = date('d.m.Y H:i') . "\n📞 +998 97 420 9008\n☎️ +998 95 196 9008\n�
 $method = 'setChatDescription';
 $datas = ['chat_id' => -1001175758497,'description' => $desc ];
 var_dump(RequestSend($method,$datas));
+$datas = ['chat_id' => -1001174929667,'description' => $desc ];
+var_dump(RequestSend($method,$datas));
 ?>
