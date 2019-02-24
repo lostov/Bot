@@ -23,11 +23,11 @@ _______________________
 ☎️ +998 95 196 9008
 📨  telegram orqali: @internationalStudyService
 _______________________
-📌Manzil: Yunusobod tumani, (Oldingi Toshkent Moliya Instituti binosi hozirgi Toshkent Arxitektura instituti)"
+📌Manzil: Yunusobod tumani, (Oldingi Toshkent Moliya Instituti binosi hozirgi Toshkent Arxitektura instituti)";
 $method = 'setChatDescription';
 $datas = [
   'chat_id' => -1001175758497,
   'description' => $desc
 ];
-send($method,$datas);
+var_dum(send($method,$datas));
 ?>
