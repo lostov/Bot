@@ -16,7 +16,7 @@ function RequestSend($method,$datas=[])
 				return json_decode($res);
 			} 
 	}
-$desc = "INFO:\n_______________________\n📞 +998 97 420 9008\n☎️ +998 95 196 9008\n📨  telegram orqali: @internationalStudyService\n_______________________\n📌Manzil: Yunusobod tumani, (Oldingi Toshkent Moliya Instituti binosi hozirgi Toshkent Arxitektura instituti)";
+$desc = "INFO:\n📞 +998 97 420 9008\n☎️ +998 95 196 9008\n📨  telegram orqali: @internationalStudyService\n_______________________\n📌Manzil: Yunusobod tumani, (Oldingi Toshkent Moliya Instituti binosi hozirgi Toshkent Arxitektura instituti)";
 $desc .= "\n". date('d.m.Y H:i');
 $method = 'setChatDescription';
 $datas = ['chat_id' => -1001175758497,'description' => $desc ];
